@@ -1,0 +1,112 @@
+html {
+    /*scrollbar fix*/
+    margin-left: calc(100vw - 100%);
+    overflow-y: scroll;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*Navbar*/
+
+.logo {
+    color: red;
+    padding: 0 10px 0 10px;
+}
+
+.navbar-custom {
+    margin-bottom: 1em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    text-decoration: underline overline red;
+    color: black;
+}
+
+
+.navbar-icons {
+    padding-left: 5px;
+}
+
+/* Body*/
+
+button {
+    color: black;
+    font-weight: 300;
+    background-color: white;
+    border-radius: 8px;
+    border: solid red 1px;
+
+}
+
+/* Category Table*/
+
+#category-table {
+}
+
+#category-table tr:hover {
+    color:red;
+    cursor: pointer;
+}
+
+.selected {
+    color:red;
+}
+
+/* Product Table*/
+
+#product-table {
+    font-weight: 300;
+}
+
+.add-button {
+    cursor: pointer;
+}
+
+.add-button:hover {
+    color: red;
+}
+
+/*Modal*/
+
+#state-modal {
+    margin-top: 10em;
+    text-align: center;
+}
+
+#modal-text {
+    padding: 1.4em;
+}
+
+/*cart table*/
+
+#cart-table {
+    font-weight: 300;
+}
+
+
+#total-charge button {
+    width: 100%;
+    font-size: 1.2em;
+}
+#checkout-button {
+    color: white;
+    background-color: red;
+}
+
+
